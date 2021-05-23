@@ -9,8 +9,7 @@ def add_elem_to_list(list, elem):
 
 def delete_elem_from_list(list, index = -1):
     if -len(list)<=index<len(list):
-        list.pop(index)
-        return list
+        return list.pop(index)
     else:
         return []
         
