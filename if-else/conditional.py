@@ -4,6 +4,7 @@ def is_positive(num):
     return num>0
     # return true if num is positive, otherwise return false
 
+    
 def is_even(num):
     return num%2==0
     # return true if num is even, otherwise return false
