@@ -11,6 +11,7 @@ def delete_elem_from_list(list, index = -1):
     if index>= len(list) or  index< len(list)*-1:
         return []
     list.remove(index)
+    return list
     
     # delete element from list, such that its index is index
     # if index is invalid, return empty list
