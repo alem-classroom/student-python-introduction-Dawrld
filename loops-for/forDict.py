@@ -1,4 +1,4 @@
-def reverse_dict(dict):
+def reverse_dict(d):
     n = {}
     for i in d.keys():
         n.update({d[i]:i})
